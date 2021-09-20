@@ -13,3 +13,9 @@ def about():
 
 if __name__ == '__main__':
   app.run(port=33507)
+
+#url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo'
+#r = requests.get(url)
+#data = r.json()
+
+#print(data)
